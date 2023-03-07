@@ -1,0 +1,35 @@
+body{
+	background:url(../imagenes/metal.jpg );
+	background-size: 1000px 1000px;
+	background-attachment: fixed;
+	background-repeat: no-repeat x;
+	color: #000;
+	font-size: 25px;
+	font-weight: bolder;
+}
+h1{
+	color: #4969e1;
+	text-decoration-color: black;
+	text-shadow: 5px 5px 5px black;
+	text-decoration: underline;
+}
+.pablo{
+	width: 100%;
+	margin: 10px;
+	text-shadow: 5px 5px 5px #fff;
+}
+.pablo li{
+	display: inline-block;
+}
+.pablo li a{
+	padding: 10px 30px;
+	display: inline-block;
+	color: #000;
+}
+.pablo li a:hover{
+	background: silver;
+	color: #000;
+}
+p{
+	color: white;
+}
