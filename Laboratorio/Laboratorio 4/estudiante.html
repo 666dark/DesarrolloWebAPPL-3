@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+
+    </div>
+    <script>
+        function listalumnos(nro,alumno, edad, materia, nota) {
+            this.nro=nro;
+            this.alumno=alumno;
+            this.edad=edad;
+            this.materia=materia;
+            this.nota=nota;
+            
+        }
+        
+        let n = parseInt(prompt("Introducir cantidad de estudiantes"));
+
+        for (let i = 0; i < n; i++) {
+            n[i]=i+1;
+            estudiante.nomap[i]=prompt("Introducir nombre y apellidos");
+            alumno[i].edad=prompt("introducir edad");
+            alumno[i].materia=prompt("Introducir Materia")
+            alumno[i].nota=prompt("Introducir Nota")
+            
+        }
+        
+        /* n = parseInt(prompt("Introducir cantidad de estudiantes"));
+        for (i = 0; i < n; i++) {
+            alumno[i].nro=i+1;
+            alumno[i].nomap=prompt("Introducir nombre y apellidos");
+            alumno[i].edad=prompt("introducir edad");
+            alumno[i].materia=prompt("Introducir Materia")
+            alumno[i].nota=prompt("Introducir Nota")
+        
+        }*/
+        lista=new listalumnos(alumno);
+    </script>
+</body>
+
+</html>

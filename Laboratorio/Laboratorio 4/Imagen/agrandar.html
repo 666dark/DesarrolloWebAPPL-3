@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="images/imagen.png" alt="" width="100px" id="imagen">
+    <input type="number" name="n" id="n">
+    <button onclick="agrandar()">Agrandar</button>
+    <button onclick="reducir()">Reducir</button>
+    <script>
+       function agrandar(){
+        n=parseInt(document.getElementById("n").value);
+        
+        document.getElementById("imagen").width=n+document.getElementById("imagen").width;
+        
+       }
+       function reducir(){
+        n=parseInt(document.getElementById("n").value);
+        if(n)
+        document.getElementById("imagen").width=document.getElementById("imagen").width-n;
+        
+       }
+    </script>
+</body>
+</html>
